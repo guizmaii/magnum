@@ -81,6 +81,6 @@ lazy val magnumZio = project
     Test / fork := true,
     publish / skip := false,
     libraryDependencies ++= Seq(
-      "dev.zio" %% "zio" % "2.1.9" % Provided
+      "dev.zio" %% "zio" % "2.1.11" % Provided
     )
   )
